@@ -2,12 +2,115 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta name="description" content="BestWorkers - Find skilled local workers in Kongu region (Erode, Coimbatore, Tirupur) for all your needs. Verified professionals, quick service, and fair pricing.">
+    <meta name="keywords" content="BestWorkers, local workers, Kongu region, Erode, Coimbatore, Tirupur, skilled workers, home services, Tamil Nadu workers">
+    <meta name="author" content="BestWorkers">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bestworkers.app/">
+    <meta property="og:title" content="BestWorkers - Find Skilled Workers in Kongu Region">
+    <meta property="og:description" content="Connect with verified local professionals in Erode, Coimbatore, Tirupur and nearby areas. Fast, reliable, and quality service guaranteed.">
+    <meta property="og:image" content="https://bestworkers.app/images/social-preview.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bestworkers.app/">
+    <meta property="twitter:title" content="BestWorkers - Find Skilled Workers in Kongu Region">
+    <meta property="twitter:description" content="Connect with verified local professionals in Erode, Coimbatore, Tirupur and nearby areas. Fast, reliable, and quality service guaranteed.">
+    <meta property="twitter:image" content="https://bestworkers.app/images/social-preview.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2563eb">
+    <meta name="msapplication-TileColor" content="#2563eb">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://bestworkers.app/" />
+    
+    <!-- Preconnect to important domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Title -->
+    <title>BestWorkers - Find Skilled Local Workers in Kongu Region (Erode, Coimbatore, Tirupur)</title>
+    
+    <!-- Preload important resources -->
+    <link rel="preload" href="/src/main.jsx" as="script">
+    <style>
+      /* Critical CSS to prevent layout shift */
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "BestWorkers",
+      "image": "https://bestworkers.app/images/logo.jpg",
+      "@id": "https://bestworkers.app",
+      "url": "https://bestworkers.app",
+      "telephone": "+91 XXXXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Worker Street",
+        "addressLocality": "Erode",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "638001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "11.3410",
+        "longitude": "77.7172"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://www.facebook.com/bestworkers",
+        "https://www.instagram.com/bestworkers",
+        "https://twitter.com/bestworkers"
+      ]
+    }
+    </script>
+    
+    <!-- Google Analytics (example) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
   </body>
 </html>
